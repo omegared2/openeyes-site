@@ -3,7 +3,7 @@ const JOGOS = [
     id: 'estacionamento_impossivel',
     nome: 'Estacionamento Impossível',
     desc: 'Puzzle sliding 6x6 com 120 fases BFS validados. Arraste carros horizontais e verticais para liberar a saída. Sistema de estrelas, undo, progressão.',
-    thumb: 'estacionamento_impossivel/estacionamento_impossivel.png',
+    thumb: 'estacionamento_impossivel/capa.png',
     webPath: 'estacionamento_impossivel/estacionamento_impossivel.html',
     apkPath: null,
     statusWeb: 'FUNCIONAL',
@@ -13,46 +13,46 @@ const JOGOS = [
   {
     id: 'blocos_do_infinito',
     nome: 'Blocos do Infinito',
-    desc: 'Endless runner vertical. Desvie de blocos que caem, colete power-ups (escudo, lento, ímã, 2x). Desafios diários, leaderboard local.',
-    thumb: 'blocos_do_infinito/02_blocos_do_infinito.png',
+    desc: 'Puzzle de encaixar blocos em grade 8x8. Complete linhas e colunas para pontuar. Modos infinito, desafio diário e tempo.',
+    thumb: 'blocos_do_infinito/capa.png',
     webPath: 'blocos_do_infinito/02_blocos_do_infinito.html',
     apkPath: null,
     statusWeb: 'FUNCIONAL',
     statusApk: 'EM PREPARAÇÃO',
-    tags: ['ENDLESS', '4 LANES', 'POWER-UPS', 'DIÁRIOS']
+    tags: ['PUZZLE', 'GRADE 8x8', 'INFINITO', 'DIÁRIO']
   },
   {
     id: 'grau_urbano',
     nome: 'Grau Urbano',
-    desc: 'Moto street com física de equilíbrio. Incline para desviar de carros, buracos, óleo, rampas. Upgrades: motor, pneus, freios, suspensão.',
-    thumb: 'grau_urbano/03_grau_urbano.png',
+    desc: 'Motos e manobras urbanas. Controle a inclinação, faça wheelies, derrapagens e salte obstáculos. Garagem com upgrades.',
+    thumb: 'grau_urbano/capa.png',
     webPath: 'grau_urbano/03_grau_urbano.html',
     apkPath: null,
     statusWeb: 'FUNCIONAL',
     statusApk: 'EM PREPARAÇÃO',
-    tags: ['MOTO', 'FÍSICA', 'UPGRADES', '3 LANES']
+    tags: ['MOTO', 'MANOBRAS', 'UPGRADES', 'URBANO']
   },
   {
     id: 'cidade_em_crescimento',
     nome: 'Cidade em Crescimento',
-    desc: 'City builder idle grid 8x8. Coloque residencial, comercial, industrial, parques, estradas. Recursos: dinheiro, população, felicidade. Progresso offline.',
-    thumb: 'cidade_em_crescimento/04_cidade_em_crescimento.png',
+    desc: 'Construa e administre sua cidade. Zoneamento, serviços, transporte, economia. Simulação profunda com progresso offline.',
+    thumb: 'cidade_em_crescimento/capa.png',
     webPath: 'cidade_em_crescimento/04_cidade_em_crescimento.html',
     apkPath: null,
     statusWeb: 'FUNCIONAL',
     statusApk: 'EM PREPARAÇÃO',
-    tags: ['CITY BUILDER', 'IDLE', 'GRID 8x8', 'OFFLINE']
+    tags: ['CITY BUILDER', 'SIMULAÇÃO', 'OFFLINE', 'GERENCIAMENTO']
   },
   {
     id: 'corrida_das_estrelas',
     nome: 'Corrida das Estrelas',
-    desc: 'Space runner/shmup vertical 5 lanes. Auto-fire, asteroides variados, bosses a cada 5km. Upgrades: casco, motor, arma, regeneração de escudo.',
-    thumb: 'corrida_das_estrelas/05_corrida_das_estrelas.png',
+    desc: 'Corrida infinita espacial com obstáculos. Desvie de asteroides, colete estrelas, desbloqueie naves. Chefes e power-ups.',
+    thumb: 'corrida_das_estrelas/capa.png',
     webPath: 'corrida_das_estrelas/05_corrida_das_estrelas.html',
     apkPath: null,
     statusWeb: 'FUNCIONAL',
     statusApk: 'EM PREPARAÇÃO',
-    tags: ['SPACE', 'SHMUP', 'BOSSES', '5 LANES']
+    tags: ['CORRIDA INFINITA', 'ESPACO', 'OBSTACULOS', 'NAVES']
   }
 ];
 
