@@ -1,0 +1,28 @@
+.jogos-main{max-width:1400px;margin:0 auto;padding:0 clamp(18px,3vw,48px)}
+#jogos-hero{text-align:center;padding:60px 0 40px}
+#jogos-hero h1{font-size:clamp(36px,5vw,72px);font-weight:850;margin:0 0 12px;letter-spacing:-2px;background:linear-gradient(90deg,#fff,#13caff);background-clip:text;-webkit-background-clip:text;color:transparent}
+#jogos-hero .tagline{font-size:clamp(14px,1.8vw,22px);letter-spacing:clamp(2px,.6vw,8px);color:#13caff;font-weight:700;margin:0 0 12px}
+#jogos-hero p:not(.tagline){color:#a8bcd1;font-size:clamp(14px,1.5vw,18px);max-width:700px;margin:0 auto}
+.jogos-cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:20px}
+.jogo-card{background:linear-gradient(180deg,#06192e,#030b18);border:1px solid #058bd2;border-radius:16px;overflow:hidden;box-shadow:0 0 20px #008be42a;transition:transform .25s,border-color .25s,box-shadow .25s;display:flex;flex-direction:column}
+.jogo-card:hover{transform:translateY(-8px);border-color:#55dcff;box-shadow:0 12px 32px #008be444}
+.jogo-card-thumb{width:100%;height:180px;object-fit:cover;background:#041020}
+.jogo-card-body{padding:18px;display:flex;flex-direction:column;flex:1}
+.jogo-card-title{font-size:18px;font-weight:800;margin:0 0 8px;color:#fff}
+.jogo-card-title span{color:#13caff;float:right;font-size:14px;font-weight:600}
+.jogo-card-desc{font-size:13px;line-height:1.55;color:#bdcfe0;margin:0 0 16px;flex:1}
+.jogo-card-actions{display:flex;gap:10px}
+.jogo-btn{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:10px 14px;border-radius:8px;font-size:13px;font-weight:700;border:1px solid;transition:all .15s;text-align:center}
+.jogo-btn-web{background:linear-gradient(90deg,#074d83,#0072aa);border-color:#07aef8;color:#fff;box-shadow:0 0 12px #007acb66}
+.jogo-btn-web:hover{filter:brightness(1.2);box-shadow:0 0 20px #007acb88}
+.jogo-btn-apk{background:#071b2e;border-color:#15658d;color:#8cdefd}
+.jogo-btn-apk:hover:not(:disabled){background:#0a2a42;border-color:#13caff;color:#13caff}
+.jogo-btn-apk:disabled{opacity:0.5;cursor:not-allowed}
+.jogo-badge{display:inline-flex;gap:6px;font-size:11px;padding:4px 8px;border-radius:20px;background:#071b2e;border:1px solid #15658d;color:#8cdefd;font-weight:600;margin-bottom:10px}
+.jogo-badge-web{background:#062038;border-color:#07aef8;color:#65eaff}
+.jogo-badge-android{background:#0a2a42;border-color:#15658d;color:#8cdefd}
+
+@media(max-width:1200px){.jogos-cards{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1050px){.jogos-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:800px){.jogos-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.jogos-cards{grid-template-columns:1fr}.jogo-btn{font-size:12px;padding:8px 10px}}
